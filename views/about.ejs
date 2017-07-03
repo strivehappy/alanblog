@@ -1,0 +1,58 @@
+<%- include('assembly/header') %>
+
+  <%- include('assembly/navigation', {
+    isShowItem: 'hideItem',
+    isHomePage: 'otherPage'
+  }) %>
+
+  <div id="article" class="showItem">
+    <div id="main">
+      <h1 id="readme">READ ME</h1>
+
+
+      <div style="float: right; width: 110px; margin: 0 0 0.5em 1em">
+        <img src="portrait/portrait.jpeg" alt="portrait" width="110" height="110">
+      </div>
+
+      <div style="margin-bottom: 2em">
+        <p>
+          我叫汤炜，80末出生于浙江兰溪。从事软件开发工作，目前在上海一家医疗影像设备公司工作。
+          搭建这个网站，是希望通过分享学习与生活，使自己养成思考和记录的习惯，也希望借此结识志同道合的朋友。
+        </p>
+
+        <p>
+          对于机器学习、物联网等非常感兴趣，我认为这些是令人兴奋的，是今后一段时间社会更快速发展所需努力突破的领域。
+          正在筹划推出一个博文系列《深度学习实践教程》，一来可以记录自己在此方面的成长过程，同时也方便日后进行整理和分享。
+        </p>
+
+        <p>
+          当前为不定期更新。
+        </p>
+
+        <p>
+          平时喜欢看书和夜跑，可以通过以下方式找到我。
+        </p>
+
+      </div>
+
+      <div id="logo-social">
+        <ul>
+          <li style="background-position: 50% 0">
+            <a href="https://github.com/strivehappy" target="_blank"></a>
+          </li>
+          <li style="background-position: 0   0">
+            <a href="http://weibo.com/doertw" target="_blank"></a>
+          </li>
+          <li style="background-position: 100% 0">
+            <a href="mailto:strivehappy@gmail.com" target="_blank"></a>
+          </li>
+        </ul>
+      </div>
+
+
+
+    </div>
+  </div>
+
+<%- include('assembly/footer') %>
+

@@ -1,0 +1,26 @@
+<%- include('assembly/header') %>
+
+  <%- include('assembly/navigation', {
+    isShowItem: 'hideItem',
+    isHomePage: 'otherPage'
+  }) %>
+
+  <div id="article" class="showItem">
+    <div id="main">
+      <p>
+        测试页面，可以在此页面可以在左侧使用markdown语法输入博文内容，页面右侧可以进行实时预览。
+      </p>
+
+      <p>
+      </p>
+
+      <textarea name="" id="blog-text-input"></textarea>
+      <div id="blog-text-preview" class="markdown-body">$$ x^{y^z}=(1+{\rm e}^x)^{-2xy^w} $$ </div>
+
+
+
+    </div>
+  </div>
+
+<%- include('assembly/footer') %>
+
